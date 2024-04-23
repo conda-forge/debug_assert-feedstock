@@ -8,9 +8,6 @@ package:
 source:
   url: https://github.com/foonathan/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 6d8749eaa6b571b6b53e2355ed0e916a83842cd623ce7e5f65b521ec71b70454
-  patches:
-    # Patch from upstream that fixes compilation with recent versions of GCC
-    - 0001-Remove-DEBUG_ASSERT_PURE_FUNCTION.patch
 
 build:
   number: 0
